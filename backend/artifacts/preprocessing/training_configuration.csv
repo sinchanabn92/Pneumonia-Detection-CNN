@@ -1,0 +1,14 @@
+parameter,value
+architecture,DenseNet121
+task,Binary classification
+class_0,NORMAL
+class_1,PNEUMONIA
+optimizer,AdamW
+learning_rate,1e-05
+weight_decay,0.0001
+batch_size,64
+max_epochs,15
+early_stopping_patience,4
+augmentation,"['Brightness variation', 'Contrast variation', 'Gaussian blur', 'Mild rotation']"
+test_set_used_for_training,False
+baseline_overwritten,False

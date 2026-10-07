@@ -1,0 +1,14 @@
+{
+    "model": "robustness_improved_densenet121",
+    "calibration": "temperature_scaling",
+    "temperature": 1.0726476907730103,
+    "selected_decision_threshold": 0.15999999999999998,
+    "selection_reason": "Maximum sensitivity with specificity >= 95%",
+    "validation_accuracy": 0.964993394980185,
+    "validation_precision": 0.9456066945606695,
+    "validation_sensitivity": 0.9797687861271677,
+    "validation_specificity": 0.9525547445255474,
+    "validation_f1": 0.9623846699787083,
+    "false_negatives": 42,
+    "false_positives": 117
+}

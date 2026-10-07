@@ -1,0 +1,17 @@
+{
+    "method": "Grad-CAM",
+    "model": "Robustness-improved DenseNet121",
+    "target_layer": "DenseNet121.features.denseblock4",
+    "input_size": "224x224",
+    "input_channels": 3,
+    "preprocessing": "Resize -> Grayscale(3) -> ToTensor -> ImageNet Normalize",
+    "classes": {
+        "0": "NORMAL",
+        "1": "PNEUMONIA"
+    },
+    "external_dataset": "Kermany Pediatric Chest X-ray",
+    "external_samples": 624,
+    "training_performed": false,
+    "threshold_tuning_performed": false,
+    "temperature_fitting_performed": false
+}
